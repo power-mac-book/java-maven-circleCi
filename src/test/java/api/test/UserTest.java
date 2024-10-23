@@ -25,7 +25,7 @@ public class UserTest {
 		
 		faker = new Faker();
 		Userpayload = new User();
-		
+	//adding faker to comment - for git purpose	
 		Userpayload.setId(faker.idNumber().hashCode());
 		Userpayload.setUsername(faker.name().username());
 		Userpayload.setFirstName(faker.name().firstName());
